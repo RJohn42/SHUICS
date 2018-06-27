@@ -4,12 +4,19 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
  */
 
-body {
-  padding-top: 54px;
-}
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 
-@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
+body {
+	font-family: "Noto Sans", "Noto Sans TC";
+}
+h1 {
+	font-family: inherit;
+	text-transform: none;
+	line-height: 6rem;
+}
+h2 {
+	font-family: inherit;
+}
+h3 {
+	font-family: inherit;
 }
